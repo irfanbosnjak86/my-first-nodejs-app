@@ -4,8 +4,11 @@
   "description": "learning the nodejs with express",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app"
   },
   "author": "Irfan Bosnjak",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
 }
