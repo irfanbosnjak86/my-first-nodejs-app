@@ -1,4 +1,7 @@
 extends layout
 
 block content
-  h1 Test variable #{variable}
+  h1 #{title}
+  ul
+    each article, i in articles
+      li= article.title    

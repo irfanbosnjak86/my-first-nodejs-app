@@ -9,6 +9,9 @@
   "author": "Irfan Bosnjak",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.16.4"
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "mongoose": "^5.3.13",
+    "pug": "^2.0.3"
   }
 }
